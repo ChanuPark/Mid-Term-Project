@@ -108,3 +108,23 @@ body {
       display: none;
     }
   }
+
+  /* section.features {
+  
+  } */
+  section.features .container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  section.features .card {
+    color: #627597;
+    border: none;
+  }
+  section.features .card img {
+    padding: 30px 60px;
+  }
+  @media (max-width: 576px) {
+    section.features .card img {
+      padding: 20px 30px;
+    }
+  }
