@@ -21,6 +21,13 @@
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>
+
+    <!-- HERO -->
+  <section class="hero">
+    <img class="globe" src="./images/hero-globe.jpg" alt="Globe">
+    <img class="glow" src="./images/hero-glow.svg" alt="Glow">
+
+    <!-- HEADER -->
     <header>
         <div class="container d-flex align-items-center py-3">
             <a class="logo me-2" href="#">
@@ -40,7 +47,49 @@
                 <a class="nav-link text-light" href="#Stack">Stack</a>
               </li>
             </ul>
-        </div>
+            
+            <button class="btn ms-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvas">
+              <img src="./images/menu.svg" alt="Menu Icon">
+            </button>
+            <div class="offcanvas offcanvas-end" id="offcanvas">
+              <div class="offcanvas-header">
+                <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="list-group list-group-flush mb-4">
+                  <li class="list-group-item">
+                    <a href="#">About me</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="#Favorites">Favorites</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="#Hobby">Hobby</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="#Stack">Stack</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
     </header>
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-7 col-12">
+            <div class="headline">
+              <h1 class="text-white">About me</h1>
+              <p class="text-white-50">Name : Chanwoo Park</p>
+              <p class="text-white-50">소속 : Dankook Univ.</p>
+              <p class="text-white-50">Major : Software</p>
+              <p class="text-white-50">Interests : A.I, Web development, app development</p>
+              <p class="text-white-50">Email : 32217317p@dankook.ac.kr</p>
+              <p class="text-white-50">I'm a student who is challenging my third goal of being a SW Developer. My first goal was to be a soccer player, and I achieved it in 2018. However, the second goal of being a national team ended in February 2021 without achieving it for bad reasons. I think challenging and failure is a process of success. This idea led me to unique and attractive goal of being a SW Developer and I came to Dept. of Software at Dankook University in 2023 to achieve my third goal.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img class="curve" src="./images/curve.svg" alt="Curve">
+    </section>
 </body>
 </html>
