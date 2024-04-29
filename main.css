@@ -1,4 +1,8 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-  }
+}
+
+header {
+    background-color: #040D22;
+}
