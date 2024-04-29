@@ -2,7 +2,8 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
   }
-
+  
+  
   header {
     /* background-color: #040D22; */
     position: relative;
@@ -83,7 +84,8 @@ body {
     bottom: 0;
     left: 0;
   }
-
+  
+  
   section.youtube {
     position: relative;
   }
@@ -108,7 +110,8 @@ body {
       display: none;
     }
   }
-
+  
+  
   /* section.features {
   
   } */
@@ -128,7 +131,6 @@ body {
       padding: 20px 30px;
     }
   }
-
   .skills {
     padding: 0 5%;
     align-items: flex-start;
@@ -196,3 +198,29 @@ body {
  html {
   scroll-behavior: smooth;
  }
+  
+  
+  footer {
+    background-color: #040D22;
+    position: relative;
+    margin-top: 20%;
+  }
+  footer .curve {
+    width: 100%;
+    transform: scaleY(-.5) translateY(50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  /* footer .container {
+  
+  } */
+  footer img.illustration {
+    width: 100%;
+    margin-top: -33%;
+    margin-bottom: 50px;
+    transform: scale(-1,1);
+  }
+  footer img.logo {
+    opacity: .4;
+  }
