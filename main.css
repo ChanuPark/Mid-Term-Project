@@ -83,3 +83,28 @@ body {
     bottom: 0;
     left: 0;
   }
+
+  section.youtube {
+    position: relative;
+  }
+  section.youtube .container {
+    padding-top: 90px;
+    padding-bottom: 70px;
+    position: relative;
+  }
+  section.youtube img.astronaut {
+    width: 480px;
+    position: absolute;
+    top: -420px;
+    right: 0;
+  }
+  section.youtube .ratio {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: black;
+  }
+  @media (max-width: 768px) {
+    section.youtube img.astronaut {
+      display: none;
+    }
+  }
